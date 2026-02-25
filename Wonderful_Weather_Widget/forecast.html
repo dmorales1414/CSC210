@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>5 Day Forecast</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <div class="top-bar">
+            <input type="text" id="cityInput" placeholder="Enter City">
+            <button onclick="getForecast()">Get Forecast</button>
+        </div>    
+        <h1 id="forecastTitle">5 Day Forecast</h1>
+        <div id="forecastResult" class="forecast-container"></div>
+
+        <div class="back-home">
+            <a href="index.html">Back To Today's Weather</a>
+        </div>
+        
+    </body>
+    <script src="scripts/forecast.js"></script>
+</html>
